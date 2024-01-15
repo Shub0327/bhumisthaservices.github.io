@@ -32,7 +32,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('construction.urls')),
+    path('', include('bis.urls')),
 ]
 
 # Serve media files during development
